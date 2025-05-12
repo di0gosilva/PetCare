@@ -1,7 +1,27 @@
+import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
+import { AuthProvider } from './contexts/AuthContext'
+import PrivateRoute from './components/PrivateRoute'
+import Login from './pages/Login'
+import Home from './pages/Home'
+import Dashboard from './pages/Dashboard'
+
 function App() {
   return (
     <>
-      <h1>Hello World</h1>
+      <AuthProvider>
+        <BrowserRouter>
+          <Routes>
+            <Route path='/login' element={<Login />}/>
+            <Route path='/home' element={<Home />}/>
+            <Route path='/dashboard' element={
+              <PrivateRoute>
+                <Dashboard />
+              </PrivateRoute>
+            }/>
+            <Route path='/' element={<Navigate to='/login'/>}/>
+          </Routes>
+        </BrowserRouter>
+      </AuthProvider>
     </>
   )
 }
