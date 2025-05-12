@@ -11,14 +11,14 @@ function App() {
       <AuthProvider>
         <BrowserRouter>
           <Routes>
-            <Route path='/login' element={<Login />}/>
             <Route path='/home' element={<Home />}/>
+            <Route path='/login' element={<Login />}/>
             <Route path='/dashboard' element={
               <PrivateRoute>
                 <Dashboard />
               </PrivateRoute>
             }/>
-            <Route path='/' element={<Navigate to='/login'/>}/>
+            <Route path='/' element={<Navigate to='/home'/>}/>
           </Routes>
         </BrowserRouter>
       </AuthProvider>
