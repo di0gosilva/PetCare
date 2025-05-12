@@ -12,7 +12,7 @@ O objetivo principal é demonstrar conhecimentos em React, consumo de APIs públ
 ![Página Home](../public/images-github/home.png)
 
 ### Página de Login 👤
-![Página de Login](../public/images-github/login.png)
+![Página de Login](https://raw.githubusercontent.com/di0gosilva/PetCare/main/public/images-github/login.png)
 
 ### Página Dashboard - Privada 🐶
 ![Página Dashboard - Privada](../public/images-github/dashboard.png)
