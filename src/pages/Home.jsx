@@ -38,7 +38,7 @@ const Home = () => {
       className="min-h-screen flex items-center justify-center bg-gray-100 px-4 py-4"
     >
       <div className="bg-white p-6 md:p-10 rounded-2xl shadow-md w-full max-w-5xl">
-        <h1 className="text-2xl md:text-3xl font-semibold text-center mb-6">Bem-vindo</h1>
+        <h1 className="text-3xl md:text-3xl font-semibold text-center mb-6">Bem-vindo</h1>
 
         {loading && (
           <div className="text-lg md:text-2xl font-semibold text-center mb-4">Carregando os pets...</div>
@@ -47,6 +47,7 @@ const Home = () => {
         <PetCard
           pets={pets}
           petsImage={petsImage}
+          showButton
         />
       </div>
     </div>
