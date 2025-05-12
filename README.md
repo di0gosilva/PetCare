@@ -9,13 +9,13 @@ O objetivo principal é demonstrar conhecimentos em React, consumo de APIs públ
 ## Demonstração 📸
 
 ### Página Inicial - PetCare 🐾
-![Página Home](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExazZyajNwc2tmdGpzM2Q5NDVwMTJ6MTZzeWZoOG5zaWU5N3gyeW5tOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vN2u3AsSFOWXGgfPKV/giphy.gif)
+![Página Home](../public/images-github/home.png)
 
-### Página de Login🍿
-![Página de Login](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3dtYXA2ZG8wY3JvczN1NWdyY3A0ZjJoNG5ncGphMjNmMWIwdmNiZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/W6qDZ92ql7ZC1fS62j/giphy.gif)
+### Página de Login 👤
+![Página de Login](../public/images-github/login.png)
 
-### Página Dashboard - Privada ❤️
-![Página Dashboard - Privada](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3J1NHlldmU1dng2bnJ6N2Fnc3BzeDN4bjQxOWRqMW1icmR3M21xZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NygbTldMwzFBbYXTUH/giphy.gif)
+### Página Dashboard - Privada 🐶
+![Página Dashboard - Privada](../public/images-github/dashboard.png)
 
 ## Tecnologias Utilizadas ⚙️
 
